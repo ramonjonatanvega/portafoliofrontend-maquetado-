@@ -1,0 +1,100 @@
+/*body{
+    background-image: url(../IMG/ARGENTINABANDERA.webp);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+}*/
+.navbar.navbar-expand-lg.bg-ligth{
+background: #c6d3d3 ;
+border: ;
+}
+i.fa-brands.fa-square-facebook.fa-2xl:hover {
+color: blue;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover {
+  color: rgb(194, 4, 109);  
+}
+i.fa-brands.fa-square-github.fa-2xl:hover {
+    color: black;
+}
+i.fa-brands.fa-square-twitter.fa-2xl:hover{
+    color: rgb(0, 172, 238);
+}
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: rgba(37, 20, 187, 0.856);
+
+}
+.list-group{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-width: 0;
+}
+
+/*section.about{
+    margin-top:30rem;
+}*/
+section.dashboard{
+margin-top:4rem;
+}
+/*section.bannercarousel{
+    margin-top:5.5rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+   
+}*/
+/*section.educacion,section.proyectos{
+    background-image: url(/ASSETS/IMG/APLogo-20-20.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+}*/
+section.perfil{
+    position:absolute;
+    height:200px;
+    width:100%;
+    top: 53rem;
+    left : -150px;
+    z-index: 1;   
+}
+section.experiencia{
+    /*position:absolute;*/
+    height:200px;
+    width:70rem;
+    left : -150px;
+    z-index: 1; 
+      margin-top: 16rem;
+}
+
+section.educacion{
+    height:200px;
+    width:70rem;
+    left : -150px;
+    z-index: 1; 
+      margin-top: 16rem;
+}
+section.proyectos{
+    height:200px;
+    width:70rem;
+    left : -150px;
+    z-index: 1; 
+      margin-top: 16rem; 
+}
+section.footer{
+    height:200px;
+    width:70rem;
+    left : -150px;
+    z-index: 1; 
+      margin-top: 16rem;   
+}
+section.habilidades{
+    height:200px;
+    width:70rem;
+    left : -150px;
+    z-index: 1; 
+      margin-top: 16rem;
+}
+
+
+
+
