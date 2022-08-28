@@ -25,6 +25,10 @@ i.fa-solid.fa-user-lock.fa-2xl:hover{
     color: rgba(37, 20, 187, 0.856);
 
 }
+i.fa-solid.fa-user.fa-2xl:hover{
+    color: rgba(37, 20, 187, 0.856);
+    
+}
 .list-group{
     --bs-list-group-bg:transparent;
     --bs-list-group-border-width: 0;
@@ -33,8 +37,8 @@ i.fa-solid.fa-user-lock.fa-2xl:hover{
 /*section.about{
     margin-top:30rem;
 }*/
-section.dashboard{
-margin-top:4rem;
+section.dashboard, section.panel{
+margin-top:6rem;
 }
 /*section.bannercarousel{
     margin-top:5.5rem;
@@ -52,10 +56,12 @@ margin-top:4rem;
 section.perfil{
     position:absolute;
     height:200px;
-    width:100%;
-    top: 53rem;
+    width:80rem;
+    top: 47rem auto;
     left : -150px;
-    z-index: 1;   
+    z-index: 1; 
+    margin-top: -7.5rem;
+
 }
 section.experiencia{
     /*position:absolute;*/
@@ -63,7 +69,7 @@ section.experiencia{
     width:70rem;
     left : -150px;
     z-index: 1; 
-      margin-top: 16rem;
+      margin-top: 30rem;
 }
 
 section.educacion{

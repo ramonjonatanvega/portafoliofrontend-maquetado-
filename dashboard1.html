@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard1</title>
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e469195d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ASSETS/CSS/style.css">
+
+</head>
+<body>
+    <header>
+        <!--barra de nav-->
+          <nav class="navbar navbar-expand-lg bg-ligth fixed-top">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <img src="ASSETS/IMG/LOGO ARGENTINA.png" alt="" width="180" height="auto">
+                    </a>
+                    <ul class="list-group list-group-horizontal">
+                      <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
+                      <li class="list-group-item"><i class="fa-brands fa-square-facebook fa-2xl"></i></li>  
+                      <li class="list-group-item"><i class="fa-brands fa-square-github fa-2xl"></i></li>
+                      <li class="list-group-item"><i class="fa-brands fa-square-twitter fa-2xl"></i></li>             
+                        <!-- Button trigger modal -->
+                        <li class="list-group-item"> <i class="fa-solid fa-user fa-2xl"  type="button">
+                         
+                        </i>
+                      </li>
+                    </ul>
+              </div>
+          </nav>  
+        
+      </header>
+      <main>
+    <section id="panel" class="panel">
+        <div class="container text-center">
+            <div class="row  g-2 g-lg-3">
+              <div class="col">
+                <div ><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-user fa-2xl"></i>                   
+            </i></button></div>
+              </div>
+              <div class="col">
+                <div ><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-image fa-2xl"></i>                   
+            </i></button></div>
+              </div>
+              <div class="col">
+                <div ><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-dumbbell fa-2xl"></i>                   
+            </i></button></div>
+            </div>
+            </div>
+            <div class="row mt-2 g-2 g-lg-3">
+                <div class="col">
+                  <div ><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#educacionModal"><i class="fa-solid fa-graduation-cap fa-2xl"></i>                   
+            </i></button></div>
+                </div>
+                <div class="col">
+                  <div ><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#infoModal"><i class="fa-solid fa-plus fa-2xl"></i>                   
+            </i></button></div>
+                </div>
+                <div class="col">
+                  <div ><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#trabajoModal"><i class="fa-solid fa-briefcase fa-2xl"></i>                   
+            </i></button></div>
+              </div>
+            </div>
+              <div class="row mt-2  g-2 g-lg-3">
+                <div class="col">
+                  <div ><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-share-nodes fa-2xl"></i>                   
+            </i></button></div>
+                </div>
+                <div class="col">
+                  <div ><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-comment fa-2xl"></i>                   
+            </i></button></div>
+                </div>
+                <div class="col">
+                  <div ><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-folder fa-2xl"></i>                   
+            </i></button></div>
+              </div>                        
+        </div>
+    </section>
+            <!--modal educacion-->  
+            <div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="examplemodal">Educacion</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="mb-3 row">
+                                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+                                    </div>
+                                  </div>
+                                  <div class="mb-3 row">
+                                     <input class="form-control form-control-sm" id="formFileSm" type="text">
+                                    <div class="col-sm-10">
+                                      <input type="password" class="form-control" id="inputPassword">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-footer">
+                                  
+                                  <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+                                </div>          
+                          </div>
+                </div>
+              </div>
+              <!--modal pluss-->  
+            <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="examplemodal">Info</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="mb-3 row">
+                                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+                                    </div>
+                                  </div>
+                                  <div class="mb-3 row">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                                    <div class="col-sm-10">
+                                      <input type="password" class="form-control" id="inputPassword">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-footer">
+                                  
+                                  <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+                                </div>          
+                          </div>
+                </div>
+              </div>
+              <!--Modal trabajo-->
+              <div class="modal fade" id="trabajoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="examplemodal">Trabajo</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                  <div class="mb-3 row">
+                                    <label for="formFileSm" class="form-label">Logo empresa</label>
+                                     
+                                    <div class="col-sm-10">
+                                        <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                    </div>
+                                  </div>
+                                  <div class="mb-3 row">
+                                    <label for="formFileSm" class="form-label">Logo empresa</label>                                      
+                                    <div class="col-sm-10">
+                                        <input class="form-control form-control-sm" id="formFileSm" type="text">
+                                    </div>
+                                  </div>                          
+                                <div class="mb-3 row">
+                                    <label for="formFileSm" class="form-label">Descripcion del puesto</label>          
+                                    <div class="col-sm-12">
+                                        <textarea class="form-control form-control-sm" id="formFileSm" type="text">
+                                        </textarea>
+                                        </div>
+                                </div>
+                                </div>
+                                <div class="modal-footer">  
+                                  <button type="button" class="btn btn-primary">Guardar</button>
+                                </div>          
+                          </div>
+                </div>
+              </div>
+</main>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
