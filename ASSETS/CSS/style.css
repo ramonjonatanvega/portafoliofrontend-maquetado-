@@ -5,6 +5,7 @@
     min-height: 100vh;
     
 }*/
+/*redes sociales y login*/
 .navbar.navbar-expand-lg.bg-ligth{
 background: #c6d3d3 ;
 border: ;
@@ -29,6 +30,7 @@ i.fa-solid.fa-user.fa-2xl:hover{
     color: rgba(37, 20, 187, 0.856);
     
 }
+/*redes sociales*/
 .list-group{
     --bs-list-group-bg:transparent;
     --bs-list-group-border-width: 0;
@@ -37,6 +39,7 @@ i.fa-solid.fa-user.fa-2xl:hover{
 /*section.about{
     margin-top:30rem;
 }*/
+/*estilos internos dashboard*/
 section.dashboard, section.panel{
 margin-top:6rem;
 }
@@ -53,23 +56,24 @@ margin-top:6rem;
     background-size: 100%;
     color: #fff;
 }*/
-section.perfil{
+/*section.perfil{
     position:absolute;
     height:200px;
-    width:80rem;
+    width:55rem;
     top: 47rem auto;
-    left : -150px;
+    
     z-index: 1; 
-    margin-top: -7.5rem;
+    margin-top: -10.5rem;
 
-}
+}*/
 section.experiencia{
     /*position:absolute;*/
-    height:200px;
+    height:680px;
     width:70rem;
     left : -150px;
     z-index: 1; 
-      margin-top: 30rem;
+      margin-top: -2rem;
+     
 }
 
 section.educacion{
@@ -77,30 +81,85 @@ section.educacion{
     width:70rem;
     left : -150px;
     z-index: 1; 
-      margin-top: 16rem;
+      margin-top: -9.5rem;
 }
 section.proyectos{
     height:200px;
     width:70rem;
     left : -150px;
     z-index: 1; 
-      margin-top: 16rem; 
+      margin-top: -0.7rem; 
 }
-section.footer{
+/*section.footer{
     height:200px;
     width:70rem;
     left : -150px;
     z-index: 1; 
-      margin-top: 16rem;   
-}
+      margin-top: 8rem;   
+}*/
 section.habilidades{
     height:200px;
     width:70rem;
     left : -150px;
     z-index: 1; 
-      margin-top: 16rem;
+      margin-top:12.4rem;
+      
+}
+.card.mat-card{
+    border-radius: 32px;
+        margin: 30px 10px;
+        padding: 13px;
+        border-color:#0ea5dc;
+        width: 83rem;
+        box-shadow: 2px 2px 4px 10px rgba(157, 5, 38, 0.856);
+        color:#fff;
+       background-color:black;
 }
 
+/* comentario abajo del banner*/
+div#fullstack{
+    font-weight: bolder; font-size: 1.2rem; 
+    margin-top: 12rem;
+    width:105rem;
+    margin: 10rem 4rem ;
+    margin-top: 5.5rem;
+    font-size: 2rem; text-shadow:0px 9px 1rem #055b52
+}
+/*foto de perfil centrado*/
+.col-md-4{
+    position:absolute;
+    height:200px;
+    width:15rem;
+    top: 47rem auto;
+    margin: -5rem;
+    z-index: 1; 
+    margin-top: -25.5rem; 
+    font-size: 2rem; text-shadow:0px 9px 1rem #055b52 
+}
+
+/*experiencia - colores letras*/
+div#experiencia{
+    text-shadow:0px 2px 1rem;    
+}
+
+/*educacion - colores letras*/
+div#educacion{
+    text-shadow:0px 2px 1rem;      
+}
+
+/*proyectos-colores letras*/
+div#proyectos{
+   text-shadow:0px 2px 1rem;
+}
+
+/*habilidades-colores letras*/
+div#habilidades{
+    text-shadow:0px 2px 1rem; 
+}
+.card-body{
+    color:rgb(0, 0, 0);  
+
+}
 
 
 
