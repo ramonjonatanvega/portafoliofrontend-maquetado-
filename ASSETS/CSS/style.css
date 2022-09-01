@@ -8,27 +8,42 @@
 /*redes sociales y login*/
 .navbar.navbar-expand-lg.bg-ligth{
 background: #c6d3d3 ;
-border: ;
+
+}
+i.fa-solid.fa-download.fa-2xl:hover{
+    color: blue;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.40);
 }
 i.fa-brands.fa-square-facebook.fa-2xl:hover {
 color: blue;
+transition: transform 0.3s ease-in-out;
+transform: scale(1.40);
 }
 i.fa-brands.fa-instagram.fa-2xl:hover {
-  color: rgb(194, 4, 109);  
+  color: rgb(194, 4, 109); 
+  transition: transform 0.3s ease-in-out;
+transform: scale(1.40); 
 }
 i.fa-brands.fa-square-github.fa-2xl:hover {
     color: black;
+    transition: transform 0.3s ease-in-out;
+transform: scale(1.40);
 }
 i.fa-brands.fa-square-twitter.fa-2xl:hover{
     color: rgb(0, 172, 238);
+    transition: transform 0.3s ease-in-out;
+transform: scale(1.40);
 }
 i.fa-solid.fa-user-lock.fa-2xl:hover{
     color: rgba(37, 20, 187, 0.856);
-
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.40);
 }
 i.fa-solid.fa-user.fa-2xl:hover{
     color: rgba(37, 20, 187, 0.856);
-    
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.40); 
 }
 /*redes sociales*/
 .list-group{
@@ -68,25 +83,25 @@ margin-top:6rem;
 }*/
 section.experiencia{
     /*position:absolute;*/
-    height:680px;
+    height:42.5rem;
     width:70rem;
-    left : -150px;
+    left : -9.375rem;
     z-index: 1; 
       margin-top: -2rem;
      
 }
 
 section.educacion{
-    height:200px;
+    height:12.5rem;
     width:70rem;
-    left : -150px;
+    left :-9.375rem;
     z-index: 1; 
       margin-top: -9.5rem;
 }
 section.proyectos{
-    height:200px;
+    height:12.5rem;
     width:70rem;
-    left : -150px;
+    left : -9.375rem;
     z-index: 1; 
       margin-top: -0.7rem; 
 }
@@ -98,22 +113,22 @@ section.proyectos{
       margin-top: 8rem;   
 }*/
 section.habilidades{
-    height:200px;
+    height:12.5rem;
     width:70rem;
-    left : -150px;
+    left : -9.375rem;
     z-index: 1; 
       margin-top:12.4rem;
       
 }
 .card.mat-card{
-    border-radius: 32px;
-        margin: 30px 10px;
-        padding: 13px;
+    border-radius: 2rem;
+        margin: 1.875rem 0.625rem;
+        padding: 0.813rem;
         border-color:#0ea5dc;
         width: 83rem;
-        box-shadow: 2px 2px 4px 10px rgba(157, 5, 38, 0.856);
+        box-shadow: 0.125rem  0.125rem 0.25rem 0.625rem rgba(157, 5, 38, 0.856);
         color:#fff;
-       background-color:black;
+        background-color:black;
 }
 
 /* comentario abajo del banner*/
@@ -123,38 +138,38 @@ div#fullstack{
     width:105rem;
     margin: 10rem 4rem ;
     margin-top: 5.5rem;
-    font-size: 2rem; text-shadow:0px 9px 1rem #055b52
+    font-size: 2rem; text-shadow:0rem 0.563rem 1rem #055b52
 }
 /*foto de perfil centrado*/
 .col-md-4{
     position:absolute;
-    height:200px;
+    height:12.5rem;
     width:15rem;
     top: 47rem auto;
     margin: -5rem;
     z-index: 1; 
     margin-top: -25.5rem; 
-    font-size: 2rem; text-shadow:0px 9px 1rem #055b52 
+    font-size: 2rem; text-shadow:0rem 0.563rem 1rem #055b52 
 }
 
 /*experiencia - colores letras*/
 div#experiencia{
-    text-shadow:0px 2px 1rem;    
+    text-shadow:0rem 0.125rem 1rem;    
 }
 
 /*educacion - colores letras*/
 div#educacion{
-    text-shadow:0px 2px 1rem;      
+    text-shadow:0rem 0.125rem 1rem;      
 }
 
 /*proyectos-colores letras*/
 div#proyectos{
-   text-shadow:0px 2px 1rem;
+   text-shadow:0rem 0.125rem 1rem;
 }
 
 /*habilidades-colores letras*/
 div#habilidades{
-    text-shadow:0px 2px 1rem; 
+    text-shadow:0rem 0.125rem 1rem; 
 }
 .card-body{
     color:rgb(0, 0, 0);  
