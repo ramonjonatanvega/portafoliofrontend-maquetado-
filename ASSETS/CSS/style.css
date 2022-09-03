@@ -54,6 +54,7 @@ i.fa-solid.fa-user.fa-2xl:hover{
 /*section.about{
     margin-top:30rem;
 }*/
+
 /*estilos internos dashboard*/
 section.dashboard, section.panel{
 margin-top:6rem;
@@ -65,12 +66,14 @@ margin-top:6rem;
     color: #fff;
    
 }*/
+
 /*section.educacion,section.proyectos{
     background-image: url(/ASSETS/IMG/APLogo-20-20.png);
     background-repeat: no-repeat;
     background-size: 100%;
     color: #fff;
 }*/
+
 /*section.perfil{
     position:absolute;
     height:200px;
@@ -81,8 +84,9 @@ margin-top:6rem;
     margin-top: -10.5rem;
 
 }*/
-section.experiencia{
-    /*position:absolute;*/
+
+/*section.experiencia{
+    /*position:absolute;
     height:42.5rem;
     width:70rem;
     left : -9.375rem;
@@ -97,14 +101,12 @@ section.educacion{
     left :-9.375rem;
     z-index: 1; 
       margin-top: -9.5rem;
+}*/
+
+section.proyectos{  
+      margin-top: -3.4rem; 
 }
-section.proyectos{
-    height:12.5rem;
-    width:70rem;
-    left : -9.375rem;
-    z-index: 1; 
-      margin-top: -0.7rem; 
-}
+
 /*section.footer{
     height:200px;
     width:70rem;
@@ -112,31 +114,34 @@ section.proyectos{
     z-index: 1; 
       margin-top: 8rem;   
 }*/
-section.habilidades{
+/*section.habilidades{
     height:12.5rem;
     width:70rem;
     left : -9.375rem;
     z-index: 1; 
       margin-top:12.4rem;
-      
-}
+ 
+}*/
 .card.mat-card{
     border-radius: 2rem;
         margin: 1.875rem 0.625rem;
         padding: 0.813rem;
         border-color:#0ea5dc;
-        width: 83rem;
+        width: 83rem auto;
         box-shadow: 0.125rem  0.125rem 0.25rem 0.625rem rgba(157, 5, 38, 0.856);
         color:#fff;
         background-color:black;
+    
+    
+       
 }
 
 /* comentario abajo del banner*/
 div#fullstack{
     font-weight: bolder; font-size: 1.2rem; 
     margin-top: 12rem;
-    width:105rem;
-    margin: 10rem 4rem ;
+    width:105rem auto;
+    margin: 10rem 10rem  ;
     margin-top: 5.5rem;
     font-size: 2rem; text-shadow:0rem 0.563rem 1rem #055b52
 }
@@ -171,9 +176,20 @@ div#proyectos{
 div#habilidades{
     text-shadow:0rem 0.125rem 1rem; 
 }
+/*imagen tarjeta web portafolio*/
 .card-body{
     color:rgb(0, 0, 0);  
-
+    width: 18rem; 
+}
+/*efecto hover logos esperiencia*/
+img#logosexp:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.40);  
+}
+/*efecto hover logos educacion*/
+img#logoseducacion:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.40);    
 }
 
 
