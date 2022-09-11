@@ -8,7 +8,10 @@
 /*redes sociales y login*/
 .navbar.navbar-expand-lg.bg-ligth{
 background: #c6d3d3 ;
+}
 
+.navbar.navbar-expand-lg.bg-ligth:hover{
+background-color: transparent;
 }
 i.fa-solid.fa-download.fa-2xl:hover{
     color: blue;
@@ -59,6 +62,7 @@ i.fa-solid.fa-user.fa-2xl:hover{
 section.dashboard, section.panel{
 margin-top:6rem;
 }
+
 /*section.bannercarousel{
     margin-top:5.5rem;
     background-repeat: no-repeat;
@@ -191,6 +195,8 @@ img#logoseducacion:hover{
     transition: transform 0.3s ease-in-out;
     transform: scale(1.40);    
 }
-
-
-
+/*efecto hover hard soft& skills(habilidades*/
+.progress:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);    
+}
