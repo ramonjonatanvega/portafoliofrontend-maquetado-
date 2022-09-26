@@ -1,0 +1,14 @@
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: rgba(37, 20, 187, 0.856);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.40);
+}
+/*color negro login*/
+i.fa-solid.fa-user-lock.fa-2xl{
+    color: #000;
+    
+}
+
+
+
+

@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+.card.mat-card{
+    border-radius: 2rem;
+        margin: 1.875rem 0.625rem;
+        padding: 0.813rem;
+        border-color:#0ea5dc;
+        width: 83rem auto;
+        box-shadow: 0.125rem  0.125rem 0.25rem 0.625rem rgba(157, 5, 38, 0.856);
+        color:#fff;
+        background-color:black;      
+}
